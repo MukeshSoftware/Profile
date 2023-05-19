@@ -1,6 +1,6 @@
 body{
     background-attachment: fixed;
-    background-color: rgb(141, 89, 189);
+background-color: lightblue;
 }
 .navbar{
   display: flex;
