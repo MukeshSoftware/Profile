@@ -3,6 +3,7 @@ body{
     background-color: rgb(141, 89, 189);
 }
 .navbar{
+  display: flex;
     background-color: rgb(183, 157, 157);
 border-radius: 5px 4px ;
 }
@@ -73,15 +74,17 @@ button:hover{
 }
 
 .devinfo{
+  display: flex;
     display: block;
     padding: 40px;
     margin: 10X;
 
 }
 .divPics{
+  display: flex;
     float: right;
     margin: -780px 0px;
-
+position: relative;
    border-top-right-radius: 10px;
   
   }
@@ -111,6 +114,7 @@ button:hover{
 
 /* ---------about-------- */
   #about{
+    display: flex;
     padding: 80px 0;
     background-color: #5c26d0;
     border-radius: 40px;
