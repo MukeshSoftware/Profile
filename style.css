@@ -1,6 +1,6 @@
 body{
     background-attachment: fixed;
-    background-color: rgb(141, 89, 189);
+    background-color: lightblue;
 }
 .navbar{
   display: flex;
@@ -109,6 +109,8 @@ position: relative;
 
 /* ---------about-------- */
   #about{
+        position : absolute;
+     background-image: url("Mukes.png");
     width: 100%;
     display: flex;
     padding: 80px 0;
