@@ -127,6 +127,7 @@ position: relative;
 
   }
   .about-col-1 img{
+    display: flex;
     margin-left: 60px;
     width: 50%;
     border-radius: 15px;
