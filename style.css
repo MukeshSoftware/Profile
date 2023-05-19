@@ -83,7 +83,7 @@ button:hover{
 .divPics{
   display: flex;
     float: right;
-    margin: -780px 0px;
+    margin: 5px 0px;
 position: relative;
    border-top-right-radius: 10px;
   
@@ -93,27 +93,23 @@ position: relative;
 
       }
   .main {
+    display: fixed;
     border: 2px solid black;
     border-bottom: -25;
-   margin: 10px 600px 70px 0px;
-    font: optional;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-style: italic;
     color: blue;
     text-align: center;
-    /* Full height */
-    /* Center and scale the image nicely */
-    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    
     background-image: url("flowers.jpg");
     
-    border-radius: 50px;
+    border-radius: 10px;
   }
 
 /* ---------about-------- */
   #about{
+    width: 100%;
     display: flex;
     padding: 80px 0;
     background-color: #5c26d0;
