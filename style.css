@@ -103,15 +103,13 @@ position: relative;
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url("flowers.jpg");
-    
     border-radius: 10px;
+   
   }
 
 /* ---------about-------- */
   #about{
         position : absolute;
-     background-image: url("Mukes.png");
-    opacity: 0.5;
     width: 100%;
     display: flex;
     padding: 80px 0;
