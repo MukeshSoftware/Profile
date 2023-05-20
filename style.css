@@ -109,8 +109,9 @@ position: relative;
 
 /* ---------about-------- */
   #about{
-        position : absolute;
+        position : fixed;
      background-image: url("Mukes.png");
+    opacity: 0.5;
     width: 100%;
     display: flex;
     padding: 80px 0;
