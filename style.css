@@ -109,7 +109,7 @@ position: relative;
 
 /* ---------about-------- */
   #about{
-        position : fixed;
+        position : absolute;
      background-image: url("Mukes.png");
     opacity: 0.5;
     width: 100%;
