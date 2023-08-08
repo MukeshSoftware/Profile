@@ -3,7 +3,6 @@ body{
     background-color: lightblue;
 }
 .navbar{
-  display: flex;
     background-color: rgb(183, 157, 157);
 border-radius: 5px 4px ;
 }
