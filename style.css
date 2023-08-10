@@ -1,6 +1,6 @@
 body{
     background-attachment: fixed;
-    background-color: lightblue;
+    background-color: rgb(141, 89, 189);
 }
 .navbar {
   display: flex;
@@ -28,10 +28,10 @@ body{
 }
 
 .navbar ul {
-
   overflow: auto;
   color: blueviolet;
 }
+
 .navbar li a:hover{
     color: rgb(222, 22, 22);
     font: 1em ;
