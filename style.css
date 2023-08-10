@@ -2,48 +2,35 @@ body{
     background-attachment: fixed;
     background-color: lightblue;
 }
-.navbar{
-    display: flex;
-    background-color: rgb(183, 157, 157);
-    border-radius: 5px 4px ;
-
-}
-.navbar li{
-    float: left;
-    list-style: none;
-    padding-inline-start: 4px;
-    padding: 14px;
-    margin: 14px ;
-}
-/* 
-.navbar li a{ padding: 10px;
-    padding: auto;
-    background-color: rgba(210, 147, 130, 0.54);
-    text-decoration: none;
-    border-radius: 4px;
-    color: rgba(26, 4, 106, 0.941);
-} 
-.navbar ul{
-    display: flex;
-     justify-content: center;
-}
-.navbar ul li{ 
-    list-style: none;
-    margin: 0 24px ;
-} */
-
-.navbar li a{ padding: 10px;
-    padding: auto;
-    background-color: rgba(210, 147, 130, 0.54);
-    text-decoration: none;
-    border-radius: 4px;
-    color: rgba(26, 4, 106, 0.941);
+.navbar {
+  display: flex;
+  background-color: rgb(183, 157, 157);
+  border-radius: 5px 4px;
 }
 
-.navbar ul{
-    
-    overflow: auto;
-    color: blueviolet;
+.navbar li {
+  float: left;
+  list-style: none;
+  padding-inline-start: 4px;
+  padding: 14px;
+  margin: 14px;
+
+
+}
+
+.navbar li a {
+  padding: 10px;
+  padding: auto;
+  background-color: rgba(210, 147, 130, 0.54);
+  text-decoration: none;
+  border-radius: 4px;
+  color: rgba(26, 4, 106, 0.941);
+}
+
+.navbar ul {
+
+  overflow: auto;
+  color: blueviolet;
 }
 .navbar li a:hover{
     color: rgb(222, 22, 22);
