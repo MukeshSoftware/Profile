@@ -96,12 +96,12 @@ button:hover {
   size: inherit;
   float: right;
   margin: 5px 0px;
-  position: inherit border-top-right-radius: 10px;
+  position: inherit border-top-right-radius 10px;
 
 }
 
 .skils h3 {
-  color: black:
+  color: rgb(129, 90, 90);
 }
 
 .main {
@@ -128,10 +128,10 @@ button:hover {
 #about {
 
   position: absolute;
-  width: 100%;
+  width: 97.2%;
   background-repeat: no-repeat;
   background-attachment: scroll;
-
+  margin: 12px;
   display: flex;
   padding: 8px 2px;
   background-color: #5c26d0;
