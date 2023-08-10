@@ -1,235 +1,170 @@
-body{
-    background-attachment: fixed;
-background-color: lightblue;
+body {
+  background-attachment: fixed;
+  background-color: rgb(141, 89, 189);
 }
-.navbar{
+
+.navbar {
   display: flex;
-    background-color: rgb(183, 157, 157);
-border-radius: 5px 4px ;
+  background-color: rgb(183, 157, 157);
+  border-radius: 5px 4px;
 }
-.navbar li{
-    float: left;
-    list-style: none;
-    padding-inline-start: 4px;
-    padding: 14px;
-    margin: 14px ;
+
+.navbar li {
+  float: left;
+  list-style: none;
+  padding-inline-start: 4px;
+  padding: 14px;
+  margin: 14px;
 
 
 }
 
-.navbar li a{ padding: 10px;
-    padding: auto;
-    background-color: rgba(210, 147, 130, 0.54);
-    text-decoration: none;
-    border-radius: 4px;
-    color: rgba(26, 4, 106, 0.941);
+.navbar li a {
+  padding: 10px;
+  padding: auto;
+  background-color: rgba(210, 147, 130, 0.54);
+  text-decoration: none;
+  border-radius: 4px;
+  color: rgba(26, 4, 106, 0.941);
 }
 
-.navbar ul{
-    
-    overflow: auto;
-    color: blueviolet;
+.navbar ul {
+  overflow: auto;
+  color: blueviolet;
 }
-.navbar li a:hover{
-    color: rgb(222, 22, 22);
-    font: 1em ;
+
+.navbar li a:hover {
+  color: rgb(222, 22, 22);
+  font: 1em;
   font-family: 'Courier New', Courier;
-      font-size: medium;
-
-   }
-
-   
-   input{
-    border-radius: 10px;
-    padding: 4px;
-   }
-.Search{
-    padding: 10px;
-    margin: 6px ;
-
-    float: right;
-border-radius: 18px;
-}
-h1,h2{
-    font-family:'Courier New', Courier, monospace;
-    color: rgb(9, 9, 25);
-    
-}
-button{ 
-    padding: 6px;
-    margin: 5px;
-    background-color: rgb(28, 9, 139);
-    color:white;
-border-radius: 4px ;
-}
-.buttons{
-    padding: 0px 4px;
-    margin: -11px 60px;
-
-}
-button:hover{
-    background-color: rgb(141, 89, 189);
-    color:rgb(12, 4, 49);
-}
-
-body { 
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: rgba(145, 67, 191, 0.774);
-  }
-  
-  * {
-    box-sizing: border-box;
-  }
-  
-  /* Add padding to containers */
-  .container {
-  
-    display: flex;
-    float: right;
-    height: 100%;
-    width: 80%;
-    border-radius: 20px;
-    /* padding: 16px; */
-    background-color: rgb(157, 110, 201);
-  }
-  
-  /* Full-width input fields */
-  input[type=text], input[type=password] {
-    width: 100%;
-    display: flex;
-    border: none;
-    background: #f1f1f1;
-  }
-  
-  input[type=text]:focus, input[type=password]:focus {
-    width: 100%;
-    background-color: #ddd;
-    outline: none;
-    display: flex;
-    border: none;
-  }
-  
-  /* Overwrite default styles of hr */
-  hr {
-    border: 1px solid #f1f1f1;
-    margin-bottom: 25px;
-  }
-  
-  /* Set a style for the submit button */
-  .registerbtn {
-    background-color: rgb(42, 9, 72);
-    color: white;
-    padding: 16px 20px;
-    margin: 8px 0;
-    border: none;
-    cursor: pointer;
-    width: 100%;
-    opacity: 0.9;
-  }
-  
-  .registerbtn:hover {
-    opacity: 1;
-  }
-  
-  /* Add a blue text color to links */
-  a {
-    color: dodgerblue;
-  }
-  
-  /* Set a grey background color and center the text of the "sign in" section */
-  .signin {
-    background-color: rgb(141, 89, 189);
-    text-align: center;
-    margin: 50px 5px ;
-
-  }
-  p{
-    text-emphasis: circle;
-    text-align: center;
-  }
-.devinfo{
-    display: block;
-    padding: 40px;
-    margin: 10X;
-
-}
-.navbar{
-    background-color: rgb(183, 157, 157);
-border-radius: 5px 4px ;
-}
-.navbar li{
-    float: right;
-    list-style: none;
-    padding-inline-start: 4px;
-    padding: 14px;
-    margin: 14px ;
-
+  background-color: blue;
+  font-size: medium;
 
 }
 
-.navbar li a{ padding: 10px;
-    padding: auto;
-    background-color: rgba(210, 147, 130, 0.54);
-    text-decoration: none;
-    border-radius: 4px;
-    color: rgba(26, 4, 106, 0.941);
+
+input {
+  border-radius: 10px;
+  padding: 4px;
 }
 
-.navbar ul{
-    
-    overflow: auto;
-    color: blueviolet;
-}
-.navbar li a:hover{
-    color: rgb(222, 22, 22);
-    font: 1em ;
-  font-family: 'Courier New', Courier;
-      font-size: medium;
-
-   }
-
-   
-   input{
-    border-radius: 10px;
-    padding: 4px;
-   }
-.Search{
-    padding: 10px;
-    margin: 6px ;
-
-    float: right;
-border-radius: 18px;
-}
-h1,h2{
-    font-family:'Courier New', Courier, monospace;
-    color: rgb(9, 9, 25);
-    
-}
-button{ text-align: center;
- max-width: 300px;
-    background-color: rgb(16, 2, 50);
-    color:white;
-border-radius: 40px ;
-}
-.buttons{
-    padding: 0px 4px;
-    margin: -11px 60px;
-
-}
-button:hover{
-    background-color: aqua;
-    color:rgb(12, 4, 49);
+.Search {
+  padding: 10px;
+  margin: 6px;
+  float: right;
+  border-radius: 18px;
 }
 
-.devinfo{
-    display: block;
-    padding: 40px;
-    margin: 10X;
+h1,
+h2 {
+  font-family: 'Courier New', Courier, monospace;
+  color: rgb(9, 9, 25);
 
 }
-img{
-    margin: -214px -8px;
-   float: right;
-  
-  }
-  
+
+button {
+  padding: 6px;
+  margin: 5px;
+  background-color: rgb(35, 13, 93);
+  color: white;
+  border-radius: 10px;
+}
+
+.buttons {
+  padding: 0px 4px;
+  margin: -11px 220px;
+
+}
+
+button:hover {
+  background-color: aqua;
+  color: rgb(12, 4, 49);
+}
+
+.devinfo {
+  display: flex;
+  display: block;
+  padding: 40px;
+  margin: 10X;
+
+}
+
+.divPics {
+  background-repeat: no-repeat;
+  background-image: url("Mukes.png");
+  background-size: cover;
+  size: inherit;
+  float: right;
+  margin: 5px 0px;
+  position: inherit border-top-right-radius: 10px;
+
+}
+
+.skils h3 {
+  color: black:
+}
+
+.main {
+  display: fixed;
+  border: 2px solid black;
+  border-bottom: -25;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: italic;
+  color: blue;
+  text-align: center;
+  background-size: cover;
+  color: aqua;
+  font-size: larger;
+
+  background: url(Mukes.png) left top no-repeat, url(flowers.jpg) right bottom no-repeat;
+  padding: 15px;
+  background-size: 180px, 100%, auto;
+  border-radius: 10px 50px;
+  background-repeat: no-repeat;
+
+}
+
+/* ---------about-------- */
+#about {
+
+  position: absolute;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+
+  display: flex;
+  padding: 8px 2px;
+  background-color: #5c26d0;
+  border-radius: 40px;
+  flex-wrap: wrap-reverse;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+}
+
+.about-col-1 {
+  flex-basis: 25%;
+
+}
+
+.about-col-1 img {
+  display: flex;
+  margin-left: 50px;
+
+  border-radius: 15px;
+}
+
+.about-col-2 {
+  flex-basis: 75%;
+  color: rgb(44, 185, 112);
+}
+
+.about-col-2 h1 {
+  color: rgb(177, 231, 124);
+  font-weight: 600;
+
+}
