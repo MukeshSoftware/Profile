@@ -5,16 +5,17 @@ body{
 .navbar{
     background-color: rgb(183, 157, 157);
 border-radius: 5px 4px ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
-.navbar li{
-      display: flex;
-    justify-content: center;
+.navbar ul{
+    display: flex;
+     justify-content: center;
+}
+.navbar ul li{ 
     list-style: none;
-    padding-inline-start: 4px;
-    padding: 14px;
-    margin: 14px ;
-
-
+    margin: 0 24px ;
 }
 
 .navbar li a{ padding: 10px;
